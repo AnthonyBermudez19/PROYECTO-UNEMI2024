@@ -1,0 +1,97 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient( #ffffff,#97ce91 );
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#game-container {
+    background: linear-gradient( #fefdff,#bdfdb4cd); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.character {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 36px;
+    transition: transform 0.3s;
+}
+
+.character:hover {
+    transform: scale(1.2);
+}
+
+.message, #math-problem, #answer-input, #accept-button, #next-level-button, #correct-message, #incorrect-message, #summary-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#correct-message {
+    color: green;
+}
+
+#incorrect-message {
+    color: red;
+}
+
+#score-text, #level-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#summary-text {
+    color: #333;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#restart-button {
+    background-color: #3498db; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#restart-button:hover {
+    background-color: #2980b9; 
+}
+.moto {
+    background-image: none;
+    background: linear-gradient( #ffffff,#bdfdb4cd);  
+            padding: 20px 20px;
+            font-size: 20px;
+            margin: 60px;
+            border: none;
+            width: 150px;
+            transition: 150ms;
+            margin-top: 50px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-family: 'Press Start 2P'; 
+            transition: background-color 0.3s ease;
+            position:relative;
+            z-index: 2;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 400px; 
+            margin-left: -800px;
+            text-decoration: none;
+            border-bottom: none;
+            font-weight: 100;
+            font-family: 'Press Start 2P', cursive; 
+}

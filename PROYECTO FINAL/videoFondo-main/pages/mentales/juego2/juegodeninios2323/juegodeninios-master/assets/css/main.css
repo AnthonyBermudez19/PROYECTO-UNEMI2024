@@ -1,0 +1,58 @@
+.colorButton {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+    border-color: ghostwhite;
+    float: left;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-image: url("../img/wooden.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat-y;
+    background-size: 120%;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.theTable {
+    width: 100%;
+}
+
+#titleIMG {
+    min-height: 43px;
+    min-width: 250px;
+}
+
+#containerColorButtons {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#animalIMG {
+  
+    min-height: 250px;
+    min-width: 250px;
+    padding: 1px;
+    margin-left: 1px;
+}
+
+.backCard {
+    width: 20%;
+}
